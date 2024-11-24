@@ -47,6 +47,8 @@ Autowiring is a feature in Spring that allows the automatic injection of depende
 ### 9. Can you compare Bean Factory with Application Context?
 
 Bean Factory is a simpler container, while Application Context includes more functionality like event handling, AOP support, and easier integration with Spring's more complex features.
+- Bean Factory Preferred Usage	- Lightweight Applications, it supports LAZY initialization
+- Application Context Use for Enterprise Applications , LAZY Initialization - NO
 
 ### 10. How do you create an application context with Spring?
 

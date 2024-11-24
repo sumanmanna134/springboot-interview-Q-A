@@ -53,6 +53,10 @@ Bean Factory is a simpler container, while Application Context includes more fun
 ### 10. How do you create an application context with Spring?
 
 You can create it using `ClassPathXmlApplicationContext` for XML configuration or `AnnotationConfigApplicationContext` for annotation-based configuration.
+```java
+ApplicationContext context = new ClassPathXmlApplicationContext("applicationContext.xml");
+
+```
 
 ### 11. How does Spring know where to search for Components or Beans?
 

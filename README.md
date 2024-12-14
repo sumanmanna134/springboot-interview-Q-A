@@ -470,7 +470,6 @@ Differences:
   }
   ```
 
-````
 
 
 ## JPA and Hibernate Concepts
@@ -490,7 +489,6 @@ In JPA, an entity is a Java class that is mapped to a database table. You define
 Example:
 
 ```java
-Copy code
 @Entity
 public class Employee {
     @Id
@@ -529,7 +527,6 @@ One-to-One mapping can be defined using the @OneToOne annotation. It is used whe
 Example:
 
 ```java
-Copy code
 @Entity
 public class Employee {
     @Id
@@ -550,7 +547,6 @@ One-to-Many mapping is defined using the @OneToMany annotation. It is used when 
 Example:
 
 ```java
-Copy code
 @Entity
 public class Department {
     @Id
@@ -571,7 +567,6 @@ Many-to-Many mapping is defined using the @ManyToMany annotation. It is used whe
 Example:
 
 ```java
-Copy code
 @Entity
 public class Course {
     @Id
@@ -592,7 +587,6 @@ public class Course {
 Using the DataSource bean in Java configuration:
 
 ```java
-Copy code
 @Bean
 public DataSource dataSource() {
     HikariDataSource dataSource = new HikariDataSource();

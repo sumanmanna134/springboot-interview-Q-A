@@ -1,0 +1,36 @@
+1️⃣ Explain the scalability challenges with ConcurrentHashMap under high contention and how to optimize it.
+2️⃣ How does the Java Memory Model (JMM) ensure visibility and ordering of operations in multi-core systems?
+3️⃣ Compare synchronized blocks vs StampedLock vs VarHandle for concurrency control.
+4️⃣ How do you debug and fix a memory leak in a production JVM?
+5️⃣ Explain differences between CMS, G1GC, and ZGC – when would you choose each in production?
+6️⃣ How would you design a high-throughput system using ForkJoinPool vs Virtual Threads (Project Loom)?
+7️⃣ Explain false sharing in multi-threading and how to avoid it.
+8️⃣ Difference between blocking queues and non-blocking (lock-free) data structures in Java.
+9️⃣ How do you implement a custom classloader for hot-reloading?
+🔟 How do you tune JVM for a low-latency trading-like system?
+
+🔹 Spring Boot
+1️⃣1️⃣ Explain how Spring Boot auto-configuration internally uses @ConditionalOnClass & @ConditionalOnMissingBean.
+1️⃣2️⃣ How would you debug circular dependency issues in a large Spring Boot project?
+1️⃣3️⃣ Explain how to secure a Spring Boot app using OAuth2 + JWT with key rotation.
+1️⃣4️⃣ How to implement distributed caching with Redis Cluster and avoid cache stampede?
+1️⃣5️⃣ What are Spring Cloud patterns for service-to-service authentication?
+1️⃣6️⃣ Explain Reactive programming in Spring WebFlux vs traditional MVC.
+1️⃣7️⃣ How do you enable backpressure handling in reactive pipelines?
+1️⃣8️⃣ programmatic vs declarative transaction management – when to use which?
+1️⃣9️⃣ How does Spring Boot manage bean lifecycle in Kubernetes (shutdown hooks, graceful termination)?
+2️⃣0️⃣ How do you handle feature toggles in Spring Boot at scale?
+
+🔹 JPA
+2️⃣1️⃣ Explain pitfalls of using EAGER fetching in large domain models and how to redesign them.
+2️⃣2️⃣ How does Hibernate’s dirty checking impact performance in batch operations?
+2️⃣3️⃣ How would you tune Hibernate 2nd-level cache in a distributed environment?
+2️⃣4️⃣ Explain how to handle schema evolution and migrations in microservices (Flyway/Liquibase).
+2️⃣5️⃣ How would you implement sharding & partitioning strategies in JPA?
+
+🔹 Microservices
+2️⃣6️⃣ How would you implement a global distributed transaction across 10+ microservices?
+2️⃣7️⃣ Compare Saga, CQRS, and Event Sourcing – when would you choose each at Walmart scale?
+2️⃣8️⃣ How do you design multi-region microservices for Walmart’s Black Friday traffic?
+2️⃣9️⃣ Explain API Gateway + Service Mesh (Istio/Linkerd) usage for enterprise-grade microservices.
+3️⃣0️⃣ How do you enforce idempotency in financial transactions APIs?
